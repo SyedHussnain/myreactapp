@@ -1,8 +1,12 @@
 import './App.css';
 
-function App() {
+function App(props) {
   return <div>
-          <div>Hello</div></div>
+    Hello {props.name} <br/>
+    Your age is {props.Age + 25}
+  </div>
+
 }
+
 
 export default App;
